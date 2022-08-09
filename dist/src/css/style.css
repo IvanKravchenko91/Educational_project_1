@@ -14,7 +14,7 @@
   }
   
   .promo {
-      height: 800px;
+     height: 800px;
      background: url('../img/Background/Back1.png') center center/cover no-repeat;
      padding: 39px 0px 62px 0px;
   }
@@ -92,3 +92,116 @@
     color: #f9bf3b;
   }
   
+  .promo .promo_btn {
+    display: block;
+    margin: 73px auto;
+    width: 350px;
+    height: 69px;
+    border: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px -5px 0px rgba(0, 0, 0, 0.23);
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'RobotoCondensed';
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+  }
+
+  .more {
+    margin-top: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+
+  .waiting {
+    padding: 85px 0 75px 0;
+    height: 607px;
+    background: #EFEFEF;
+  }
+
+  .waiting .waiting_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+  }
+
+  .waiting .wairing_divider {
+    width: 220px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background: #F9BF3B;
+  }
+
+  .waiting .waiting_subheader {
+    margin: 0 auto;
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+
+  .waiting .waiting_wrapper {
+    margin-top: 45px;
+  }
+
+  .waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 339px;
+    text-align: center;
+  }
+
+  .waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+  }
+
+  .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    font-family: 'Roboto';
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4A4A4A;
+  }
+
+  .my-flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+  }
+
+  .my-flex-container .my-flex-block {
+    width: 150px;
+    height: 180px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+  }
