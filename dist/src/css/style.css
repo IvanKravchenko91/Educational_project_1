@@ -254,8 +254,20 @@
     display: flex;
     justify-content: center;
     align-items:center;
+    margin: 0 auto;
     width: 118px;
     height: 118px;
     background: #B4E2FF;
     border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
 }
