@@ -7,6 +7,7 @@
   html {
     font-family: 'Roboto', sans-serif;
   }
+
   .container {
     position: relative;
     width: 1140px;
@@ -92,7 +93,7 @@
     color: #f9bf3b;
   }
   
-  .promo .promo_btn {
+  .promo .promo_btn, .bonus .bonus_btn {
     display: block;
     margin: 73px auto;
     width: 350px;
@@ -270,4 +271,70 @@
     line-height: 20px;
     text-align: center;
     color: #EFEFEF;
+}
+
+.bonus  {
+    padding: 85px 0 87px 0;
+    min-height: 628px;
+    background: #EFEFEF;
+}
+
+.bonus .bonus_text {
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+
+.bonus .bonus_gift {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar {
+    padding: 86px 0 52px 0;
+    min-height: 512px;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_zag {
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #252525;
+}
+
+.webinar .webinar_title {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #299CBD;
+}
+
+.webinar .webinar_text {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
 }
