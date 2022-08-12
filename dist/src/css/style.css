@@ -338,3 +338,33 @@
     text-align: center;
     color: #4A4A4A;
 }
+
+footer {
+    min-height: 166px;
+    background: #000;
+}
+
+.info {
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;  
+}
+
+.info_links a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
+
+.underlined {
+    text-decoration: underline;
+}
